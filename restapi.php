@@ -1,5 +1,6 @@
 <?php
-/**
+
+/**
  * @author Mahesh Babu <info@godigitally.co.in>
  * @copyright Go Digitally.co.in 2020
  * @package ion-stories
@@ -15,7 +16,7 @@ $config["app-desc"]			= "Ionic stories app for Android" ; //Write a brief descri
 $config["utf8"]				= true; 
 $config["debug"]			= false; 
 $config["protect"]			= false; 
-$config["url"]			= "https://ionstories.local/restapi.php"; 
+$config["url"]			= "https://ion-stories.herokuapp.com/restapi.php"; 
 $config["userfile_url"]			= ""; // leave blank for absolute urls
 $config["timezone"]			= "Asia/Kolkata" ; // check this site: http://php.net/manual/en/timezones.php
 $config["gzip"]			= false; //compressed page 
